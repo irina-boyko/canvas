@@ -1,0 +1,50 @@
+.app {
+
+}
+.app__inner {
+  display: flex;
+  border-collapse: collapse;
+
+}
+.app__column {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.app__column-content {
+  border: 1px solid black;
+  vertical-align: top;
+  padding: 8px;
+}
+.app__column-title {
+  background: #DCDCDC;
+  text-align: center;
+  padding: 8px 32px;
+  border: 1px solid black;
+}
+.app__circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #2348b8;
+  border: 2px solid black;
+  margin: 32px 0;
+}
+
+.app__square {
+  width: 100px;
+  height: 80px;
+  background: #66a13d;
+  border: 2px solid black;
+}
+
+.app__circle-draggable {
+  position: absolute;
+  top: 0;
+  left:0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #2348b8;
+  border: 2px solid black;
+}

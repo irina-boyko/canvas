@@ -2,12 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="dist/css/styles.css" />
+
 </head>
 <body>
 
-<div>
-    Hello
+<div class="app">
+
+    <table class="app__inner">
+
+        <tr class="app__column">
+            <td class="app__column-title"> Figures </td>
+            <td class="app__column-title"> Canvas </td>
+        </tr>
+
+        <tr class="app__column">
+
+            <td class="app__column-content" id="figures-area">
+                <div id="circle" class="app__circle app__figure"></div>
+                <div id="square" class="app__square app__figure"></div>
+            </td>
+
+            <td class="app__column-content">
+                <canvas id="canvas" width=800 height=800></canvas>
+            </td>
+
+        </tr>
+        </table>
+
+    </div>
 </div>
 
 </body>
